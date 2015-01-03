@@ -1,4 +1,4 @@
-ServerTutorial
+VanquishTutorial
 ==============
 
-Bukkit plugin
+Fork of HawkFalcon's ServerTutorial updated and customized for VanquishNetwork.

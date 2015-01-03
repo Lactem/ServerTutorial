@@ -1,0 +1,34 @@
+#set false to disable auto-updating
+auto-update: false
+
+#set false to disable metrics
+metrics: false
+
+#Sign setting
+sign: '&0[Tutorial]'
+
+#Set to true to make those that are new to server to join a tutorial and which tutorial to make them join
+first_join: true
+first_join_tutorial: 'starter'
+
+#rewards. Money Rewards requires Vault.
+rewards: false
+
+#Count Down Timer for tutorial views
+exp_countdown: false
+
+#Enable/disable for per view rewards
+view_money: false
+view_exp: false
+
+#Enable/disable for per tutorial rewards
+tutorial_money: false
+tutorial_exp: false
+
+#per tutorial eco settings
+per_tutorial_money: "0.00"
+per_tutorial_exp: "0"
+
+#per view eco settings
+per_view_money: "0.00"
+per_view_exp: "0"

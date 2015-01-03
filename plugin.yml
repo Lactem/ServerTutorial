@@ -1,0 +1,20 @@
+name: VanquishTutorial
+main: io.snw.tutorial.ServerTutorial
+version: 1.0
+description: Tutorial plugin
+authors: [hawkfalcon, gomeow, Frostalf, Lactem]
+website: vanquishnetwork.net
+commands:
+    tutorial:
+        description: tutorial
+permissions:
+    tutorial.*:
+        children:
+            tutorial.use: true
+            tutorial.create: true
+    tutorial.create:
+        default: OP
+    tutorial.use:
+        default: true
+    tutorial.config:
+        default: OP

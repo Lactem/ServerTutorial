@@ -24,7 +24,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class ServerTutorial extends JavaPlugin {
 
-	public static final String PREFIX = ChatColor.translateAlternateColorCodes('&', "&e&lVanquish&c&lTutorial &7&l>&r");
+	public static String PREFIX;
 	
     private static ServerTutorial instance;
 
@@ -41,6 +41,7 @@ public class ServerTutorial extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new TutorialListener(), this);
         this.getCommand("tutorial").setExecutor(new TutorialMainCommand());
         this.saveDefaultConfig();
+        PREFIX = ChatColor.translateAlternateColorCodes('&', getConfig().getString("prefix"));
         DataLoading.getDataLoading().loadData();
         DataLoading.getDataLoading().loadPlayerData();
         Caching.getCaching().casheAllData();

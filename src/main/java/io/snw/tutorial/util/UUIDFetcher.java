@@ -1,4 +1,3 @@
-
 package io.snw.tutorial.util;
 
 import com.google.common.collect.ImmutableList;

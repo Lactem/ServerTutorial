@@ -1,3 +1,6 @@
+#Prefix for all messages
+prefix: &e&lVanquish&c&lTutorial &7&l>&r
+
 #set false to disable auto-updating
 auto-update: false
 
